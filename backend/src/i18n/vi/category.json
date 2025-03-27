@@ -1,0 +1,7 @@
+{
+  "CATEGORY_EXISTS": "Danh mục đã tồn tại.",
+  "PARENT_EXISTS": "Danh mục cha tồn tại.",
+  "CATEGORY_NOT_EXISTS": "Danh mục không tồn tại.",
+  "CHILD_CATEGORY_DETECTED": "Phát hiện danh mục con.",
+  "CIRCULAR_REFERENCES": "Phát hiện tham chiếu vòng lặp."
+}

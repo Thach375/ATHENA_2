@@ -1,0 +1,12 @@
+{
+  "COURSE_EXISTS": "Khóa học đã tồn tại.",
+  "AUTHOR_NOT_EXISTS": "Tác giả không tồn tại.",
+  "CATEGORY_NOT_EXIST": "Danh mục không tồn tại.",
+  "NOT_FOUND": "Không tìm thấy khóa học.",
+  "NO_PERMISSION": "Không có quyền thực hiện hành động này.",
+  "ALREADY_PUBLIC": "Khóa học đã được công khai.",
+  "ALREADY_PRIVATE": "Khóa học đã được riêng tư.",
+  "BUY_SELF_PRODUCT": "Không thể mua khóa học của chính mình.",
+  "ALREADY_BUY": "Khóa học đã được mua.",
+  "MAX_PAYMENT_ATTEMPT": "Đã vượt quá số lần thanh toán tối đa."
+}

@@ -1,0 +1,74 @@
+{
+  "REGISTER": {
+    "DIAL_CODE_INVALID": "Mã quốc gia không hợp lệ",
+    "PHONE_SHORT": "Số điện thoại quá ngắn",
+    "PHONE_LONG": "Số điện thoại quá dài",
+    "MUST_BE_EMAIL": "Email không hợp lệ",
+    "WRONG_USERNAME_FORMAT": "Tên người dùng không hợp lệ, phải bao gồm chữ và số, 8 - 30 kí tự",
+    "WRONG_USERNAME_TYPE": "Kiểu dữ liệu tên người dùng không hợp lệ",
+    "WRONG_PASSWORD_TYPE": "Kiểu dữ liệu mật khẩu không hợp lệ",
+    "WRONG_PASSWORD_FORMAT": "Mật khẩu không hợp lệ, phải bao gồm chữ và số, 8 - 25 kí tự",
+    "WRONG_FIRSTNAME_TYPE": "Kiểu dữ liệu tên không hợp lệ",
+    "FIRSTNAME_SHORT": "Tên quá ngắn",
+    "FIRSTNAME_LONG": "Tên quá dài",
+    "WRONG_LASTNAME_TYPE": "Kiểu dữ liệu họ không hợp lệ",
+    "LASTNAME_SHORT": "Họ quá ngắn",
+    "LASTNAME_LONG": "Họ quá dài"
+  },
+  "LOGIN": {
+    "USERNAME_LONG": "Tên đăng nhập quá dài",
+    "USERNAME_SHORT": "Tên đăng nhập quá ngắn",
+    "WRONG_PASSWORD_TYPE": "Loại mật khẩu không hợp lệ",
+    "WRONG_PASSWORD_FORMAT": "Định dạng mật khẩu không hợp lệ, phải bao gồm chữ và số 8 - 25 kí tự"
+  },
+  "COMMON": {
+    "WRONG_USER_ID": "ID người dùng không hợp lệ",
+    "MUST_BE_EMAIL": "Email phải đúng định dạng"
+  },
+  "RBAC": {
+    "WRONG_ROLE_NAME_TYPE": "Kiểu tên vai trò không hợp lệ",
+    "WRONG_ROLE_FORMAT": "Định dạng tên vai trò không hợp lệ. Tên vai trò phải bao gồm chữ và số và có độ dài từ 4 đến 255 ký tự",
+    "WRONG_PERMISSION_ID": "ID quyền không hợp lệ",
+    "WRONG_ROLE_ID": "ID vai trò không hợp lệ"
+  },
+  "VERIFY_ACCOUNT": {
+    "SESSION_ID_INVALID": "ID phiên không hợp lệ",
+    "INVALID_OTP_CODE_FORMAT": "Định dạng mã OTP không hợp lệ. Mã OTP phải là một chuỗi 6 chữ số"
+  },
+  "USER": {
+    "WRONG_DISPLAY_NAME_FORMAT": "Định dạng tên hiển thị không đúng. Chỉ cho phép ký tự chữ và số, độ dài từ 8 đến 50 ký tự",
+    "WRONG_HIDDEN_FIELDS_FORMAT": "Định dạng trường ẩn không đúng. Chỉ cho phép ký tự chữ, số và dấu phẩy, độ dài tối thiểu 2 ký tự",
+    "WRONG_FIRSTNAME_FORMAT": "Định dạng tên không đúng. Chỉ cho phép ký tự chữ và khoảng trắng, độ dài từ 1 đến 50 ký tự",
+    "WRONG_LASTNAME_FORMAT": "Định dạng họ không đúng. Chỉ cho phép ký tự chữ và khoảng trắng, độ dài từ 1 đến 50 ký tự"
+  },
+  "CATEGORY": {
+    "WRONG_NAME_FORMAT": "Định dạng tên danh mục không đúng. Chỉ cho phép ký tự chữ và số, độ dài từ 8 đến 255 ký tự",
+    "PRIORITY_SHORT": "Độ ưu tiên của danh mục quá thấp. Phải bằng 0 hoặc cao hơn",
+    "PARENT_MUST_BE_UUID": "Mã danh mục cha phải là UUID hợp lệ",
+    "DESCRIPTION_LONG": "Mô tả danh mục quá dài. Độ dài tối đa là 2000 ký tự"
+  },
+  "COURSE": {
+    "WRONG_COURSE_FORMAT": "Định dạng tiêu đề khóa học không đúng. Chỉ cho phép ký tự chữ số và -_!:, độ dài từ 8 đến 500 ký tự",
+    "PRICE_MIN": "Giá khóa học phải lớn hơn hoặc bằng 0",
+    "PREREQUISITE.MIN": "Yêu cầu tiên quyết phải có ít nhất 8 ký tự",
+    "PREREQUISITE.MAX": "Yêu cầu tiên quyết không được vượt quá 500 ký tự",
+    "OBJECTIVE.MIN": "Mục tiêu phải có ít nhất 8 ký tự",
+    "OBJECTIVE.MAX": "Mục tiêu không được vượt quá 500 ký tự",
+    "DESCRIPTION.MIN": "Mô tả phải có ít nhất 8 ký tự",
+    "DESCRIPTION.MAX": "Mô tả không được vượt quá 2000 ký tự",
+    "MUST_BE_UUID": "Mỗi danh mục phải là một UUID hợp lệ",
+    "WRONG_PAYMENT_METHOD_ID_TYPE": "ID phương thức thanh toán phải là UUID hợp lệ",
+    "WRONG_COURSE_ID": "ID khóa học phải là UUID hợp lệ"
+  },
+  "LECTURE": {
+    "WRONG_TITLE_FORMAT": "Định dạng tiêu đề bài giảng không đúng. Chỉ cho phép ký tự chữ số và -_!:, độ dài từ 8 đến 500 ký tự",
+    "DESCRIPTION_MAX": "Mô tả bài giảng không được vượt quá 2000 ký tự",
+    "SECTION_ID_INVALID": "ID phần phải là UUID hợp lệ",
+    "INVALID_LECTURE_ID": "Mỗi ID bài giảng phải là một UUID hợp lệ"
+  },
+  "SECTION": {
+    "WRONG_SECTION_FORMAT": "Định dạng tiêu đề mục không đúng. Chỉ cho phép ký tự chữ số và -_!:, độ dài từ 3 đến 500 ký tự",
+    "WRONG_OBJECTIVE_FORMAT": "Định dạng mục tiêu mục không đúng. Chỉ cho phép ký tự chữ số và -_!:, độ dài từ 3 đến 500 ký tự",
+    "WRONG_COURSE_ID": "ID khóa học phải là một UUID hợp lệ"
+  }
+}

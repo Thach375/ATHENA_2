@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <title>Athena notification</title>
+    <!--[if !mso]><!-- -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      #outlook a {
+        padding: 0;
+      }
+
+      .ReadMsgBody {
+        width: 100%;
+      }
+
+      .ExternalClass {
+        width: 100%;
+      }
+
+      .ExternalClass * {
+        line-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+      }
+
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+
+      p {
+        display: block;
+        margin: 13px 0;
+      }
+    </style>
+    <!--[if !mso]><!-->
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        @-ms-viewport {
+          width: 320px;
+        }
+        @viewport {
+          width: 320px;
+        }
+      }
+    </style>
+
+    <style type="text/css">
+      @media only screen and (min-width: 480px) {
+        .mj-column-per-100 {
+          width: 100% !important;
+        }
+      }
+    </style>
+
+    <style type="text/css"></style>
+  </head>
+
+  <body style="background-color: #f9f9f9">
+    <p>Dear <strong>our customer,</strong></p>
+    <p>
+      Thank you for booking a mentoring session with us! Below are the details
+      of your session and important payment instructions to confirm your
+      booking:
+    </p>
+    <strong>Session Details:</strong>
+    <p>Mentor: <%= mentorName %></p>
+    <p>Date: <%= dateStr %></p>
+    <p>Time: <%= startTimeStr %> (GMT+7)- <%= endTimeStr %> (GMT+7)</p>
+    <strong>Payment Instructions:</strong>
+    <p>
+      To confirm your booking, please complete your payment within 5 hours of
+      receiving this email. Failure to complete the payment within this
+      timeframe will result in the automatic cancellation of your session.
+    </p>
+    <p>Payment Amount: <%= amount%>$</p>
+    <p>Payment QR: <a href="<%= paymentLink%>">HERE</a></p>
+    <p>Cancellation Policy:</p>
+    <p>
+      You may cancel your booking up to 12 hours before the session starts to
+      avoid any penalties. If you do not cancel within this timeframe, your
+      session slot will be forfeited, and no refunds will be issued. What’s
+      Next?
+    </p>
+    <p>
+      Once your payment is successfully completed, you will receive another
+      email with the final session details, including the meeting link,
+      instructions, and other relevant information. If you have any questions or
+      need assistance, feel free to contact us at support@studyathena.com
+    </p>
+    <p>We look forward to supporting you in achieving your goals!</p>
+
+    <p>Best regards,</p>
+    <strong>Athena</strong>
+  </body>
+</html>

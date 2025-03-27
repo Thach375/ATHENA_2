@@ -1,0 +1,7 @@
+{
+  "CATEGORY_EXISTS": "Category already exists.",
+  "PARENT_EXISTS": "Parent category exists.",
+  "CATEGORY_NOT_EXISTS": "Category does not exist.",
+  "CHILD_CATEGORY_DETECTED": "Child category detected.",
+  "CIRCULAR_REFERENCES": "Circular references detected."
+}

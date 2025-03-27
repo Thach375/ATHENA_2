@@ -1,0 +1,75 @@
+{
+  "REGISTER": {
+    "DIAL_CODE_INVALID": "Invalid dial code",
+    "PHONE_SHORT": "Phone number is too short",
+    "PHONE_LONG": "Phone number is too long",
+    "MUST_BE_EMAIL": "Invalid email address",
+    "WRONG_USERNAME_FORMAT": "Invalid username format, must include letters and numbers, 8 - 25 character",
+    "WRONG_USERNAME_TYPE": "Invalid username data type",
+    "WRONG_PASSWORD_TYPE": "Invalid password data type",
+    "WRONG_PASSWORD_FORMAT": "Invalid password format, must include letters and numbers, 8 - 25 character",
+    "WRONG_FIRSTNAME_TYPE": "Invalid first name data type",
+    "FIRSTNAME_SHORT": "First name is too short",
+    "FIRSTNAME_LONG": "First name is too long",
+    "WRONG_LASTNAME_TYPE": "Invalid last name data type",
+    "LASTNAME_SHORT": "Last name is too short",
+    "LASTNAME_LONG": "Last name is too long",
+    "USER_EXISTS": "User already exists."
+  },
+  "LOGIN": {
+    "USERNAME_LONG": "Username is too long",
+    "USERNAME_SHORT": "Username is too short",
+    "WRONG_PASSWORD_TYPE": "Invalid password type",
+    "WRONG_PASSWORD_FORMAT": "Invalid password format, must include letters and numbers 8 - 25 character"
+  },
+  "RBAC": {
+    "WRONG_ROLE_NAME_TYPE": "Invalid role name type",
+    "WRONG_ROLE_FORMAT": "Invalid role name format. Role name must be alphanumeric and between 4 and 255 characters long",
+    "WRONG_PERMISSION_ID": "Invalid permission ID",
+    "WRONG_ROLE_ID": "Invalid role ID"
+  },
+  "COMMON": {
+    "WRONG_USER_ID": "Invalid user ID",
+    "MUST_BE_EMAIL": "Invalid email address"
+  },
+  "VERIFY_ACCOUNT": {
+    "SESSION_ID_INVALID": "Invalid session ID",
+    "INVALID_OTP_CODE_FORMAT": "Invalid OTP code format. OTP code must be a 6-digit number"
+  },
+  "USER": {
+    "WRONG_DISPLAY_NAME_FORMAT": "Display name format is wrong. Only alphanumeric characters are allowed, and the length must be between 8 to 50 characters",
+    "WRONG_HIDDEN_FIELDS_FORMAT": "Hidden fields format is wrong. Only alphanumeric and comma characters are allowed, and the length must be 2 characters or more",
+    "WRONG_FIRSTNAME_FORMAT": "First name format is wrong. Only alphabet and space characters are allowed, and the length must be between 1 to 50 characters",
+    "WRONG_LASTNAME_FORMAT": "Last name format is wrong. Only alphabet and space characters are allowed, and the length must be between 1 to 50 characters"
+  },
+  "CATEGORY": {
+    "WRONG_NAME_FORMAT": "Category name format is wrong. Only alphanumeric characters are allowed, and the length must be between 8 to 255 characters",
+    "PRIORITY_SHORT": "Category priority is too low. Must be 0 or higher",
+    "PARENT_MUST_BE_UUID": "Parent category identifier must be a valid UUID",
+    "DESCRIPTION_LONG": "Category description is too long. Maximum length is 2000 characters"
+  },
+  "COURSE": {
+    "WRONG_COURSE_FORMAT": "Course title format is wrong. Only alphanumeric characters and -_!: are allowed, and the length must be between 8 to 500 characters",
+    "PRICE_MIN": "Course price must be 0 or higher",
+    "PREREQUISITE.MIN": "Prerequisites must be at least 8 characters long",
+    "PREREQUISITE.MAX": "Prerequisites cannot exceed 500 characters",
+    "OBJECTIVE.MIN": "Objective must be at least 8 characters long",
+    "OBJECTIVE.MAX": "Objective cannot exceed 500 characters",
+    "DESCRIPTION.MIN": "Description must be at least 8 characters long",
+    "DESCRIPTION.MAX": "Description cannot exceed 2000 characters",
+    "MUST_BE_UUID": "Each category must be a valid UUID",
+    "WRONG_PAYMENT_METHOD_ID_TYPE": "Payment method ID must be a valid UUID",
+    "WRONG_COURSE_ID": "Course ID must be a valid UUID"
+  },
+  "LECTURE": {
+    "WRONG_TITLE_FORMAT": "Lecture title format is wrong. Only alphanumeric characters and -_!: are allowed, and the length must be between 8 to 500 characters",
+    "DESCRIPTION_MAX": "Lecture description cannot exceed 2000 characters",
+    "SECTION_ID_INVALID": "Section ID must be a valid UUID",
+    "INVALID_LECTURE_ID": "Each lecture ID must be a valid UUID"
+  },
+  "SECTION": {
+    "WRONG_SECTION_FORMAT": "Section title format is wrong. Only alphanumeric characters and -_!: are allowed, and the length must be between 3 to 500 characters",
+    "WRONG_OBJECTIVE_FORMAT": "Section objective format is wrong. Only alphanumeric characters and -_!: are allowed, and the length must be between 3 to 500 characters",
+    "WRONG_COURSE_ID": "Course ID must be a valid UUID"
+  }
+}

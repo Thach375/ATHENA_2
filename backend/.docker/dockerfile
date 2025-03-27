@@ -1,0 +1,38 @@
+FROM node:20-alpine AS build 
+
+RUN mkdir -p /app
+
+WORKDIR /app
+
+COPY . . 
+
+RUN npm install -g typescript \
+        @nestjs/cli
+
+RUN npm install --legacy-peer-deps
+
+RUN npm run build 
+
+FROM node:20-alpine AS run
+
+WORKDIR /app
+
+RUN npm install -g pm2
+
+COPY --from=build /app/package.json /app/package.json
+COPY --from=build /app/package-lock.json /app/package-lock.json
+COPY --from=build /app/ecosystem.config.js /app/ecosystem.config.js
+COPY --from=build /app/dist /app/dist
+
+RUN npm install --omit=dev --legacy-peer-deps
+
+RUN npm cache clean --force
+
+EXPOSE 8080
+
+CMD ["pm2-runtime", "start", "ecosystem.config.js"]
+
+
+
+
+

@@ -1,0 +1,7 @@
+{
+  "NOT_FOUND": "Không tìm thấy bài giảng.",
+  "ALREADY_PUBLIC": "Bài giảng đã được công khai.",
+  "VIDEO_NOT_FOUND": "Không tìm thấy video.",
+  "MISSING_LECTURE": "Thiếu thông tin bài giảng.",
+  "ALREADY_PRIVATE": "Bài giảng đã được riêng tư."
+}

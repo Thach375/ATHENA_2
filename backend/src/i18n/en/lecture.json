@@ -1,0 +1,7 @@
+{
+  "NOT_FOUND": "Lecture not found.",
+  "ALREADY_PUBLIC": "Lecture is already public.",
+  "VIDEO_NOT_FOUND": "Video not found.",
+  "MISSING_LECTURE": "Missing lecture information.",
+  "ALREADY_PRIVATE": "Lecture is already private."
+}

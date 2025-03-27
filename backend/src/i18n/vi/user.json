@@ -1,0 +1,17 @@
+{
+  "EMAIL_IS_INVALID": "Email không hợp lệ",
+  "EMAIL_IS_EXISTED": "Email đã được tạo tài khoản",
+  "USER_NOT_EXISTS": "Người dùng không tồn tại",
+
+  "REGISTER": {
+    "USER_EXISTS": "Thông tin tài khoản đã tồn tại trong hệ thống"
+  },
+  "ALREADY_DEACTIVATE": "Người dùng đã được hủy kích hoạt.",
+  "ALREADY_ACTIVATE": "Người dùng đã được kích hoạt.",
+  "FORGOT_PASSWORD": {
+    "SESSION_NOT_FOUND": "Không tìm thấy phiên đặt lại mật khẩu."
+  },
+  "CHANGE_PASSWORD": {
+    "NOT_MATCH": "Mật khẩu hiện tại không khớp."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "COURSE_EXISTS": "Course already exists.",
+  "AUTHOR_NOT_EXISTS": "Author does not exist.",
+  "CATEGORY_NOT_EXIST": "Category does not exist.",
+  "NOT_FOUND": "Course not found.",
+  "NO_PERMISSION": "No permission to perform this action.",
+  "ALREADY_PUBLIC": "Course is already public.",
+  "ALREADY_PRIVATE": "Course is already private.",
+  "BUY_SELF_PRODUCT": "Cannot buy your own course.",
+  "ALREADY_BUY": "Course already purchased.",
+  "MAX_PAYMENT_ATTEMPT": "Maximum payment attempts exceeded."
+}
